@@ -1,58 +1,124 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 
 <html lang="fr">
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-	<title>Alpine Tour</title>
+        <title>Alpine Tour</title>
 
-	<link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+        <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
 
-	<script type="text/javascript" src="js/script.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
 
-	<!--[if IE 7]><![endif]-->
-</head>
-<body>
-    <div class="container">
-        <div class="header_menu">
-            <div class="menu_img">
-                <a href="index.html"><img src="img/logo.png" alt="logo" width="115" height="43" /></a>
+        <!--[if IE 7]><![endif]-->
+    </head>
+    <body>
+        <div class="container">
+            <div class="header_menu">
+                <div class="menu_img">
+                    <a href="index.html"><img src="img/logo.png" alt="logo" width="115" height="43" /></a>
+                </div>
+                <div class="menu_list">
+                    <ul>
+                        <li>
+                            ACCUEIL
+                        </li>
+                        <li>
+                            LES STATIONS
+                        </li>
+                        <li>
+                            LES OFFRES
+                        </li>
+                        <li>
+                            TÉMOIGNAGES
+                        </li>
+                        <li>
+                            PHOTOS
+                        </li>
+                        <li class="last menu_active">
+                            NOUS CONTACTER
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <div class="menu_list">
-                <ul>
-                    <li>
-                        ACCUEIL
-                    </li>
-                    <li>
-                        LES STATIONS
-                    </li>
-                    <li>
-                        LES OFFRES
-                    </li>
-                    <li>
-                        TÉMOIGNAGES
-                    </li>
-                    <li>
-                        PHOTOS
-                    </li>
-                    <li class="last menu_active">
-                        NOUS CONTACTER
-                    </li>
-                </ul>
+            <div class="header">
+                <div class="form">
+                    <form action="#" method="post" class="">
+                        <h3>CHOISISSEZ VOTRE SEJOUR</h3>
+                        <select class="" style="width:150px" id="week" name="week">
+                            <option value="Selectionner une semaine"> Selectionner une semaine </option>
+                            <option value="04/02/2013 -&gt; 10/02/2013 "> 04/02/2013 -&gt; 10/02/2013 </option>
+                            <option value="04/02/2013 -&gt; 10/02/2013"> 04/02/2013 -&gt; 10/02/2013 </option>
+                            <option value="04/02/2013 -&gt; 10/02/2013"> 04/02/2013 -&gt; 10/02/2013 </option>
+                            <option value="04/02/2013 -&gt; 10/02/2013"> 04/02/2013 -&gt; 10/02/2013 </option>
+                        </select>
+                        <select class="" style="width:150px" id="start" name="start">
+                            <option value="Au depart de "> Au depart de </option>
+                            <option value="Tignes"> Tignes </option>
+                            <option value="La Plagne"> La Plagne </option>
+                            <option value="Chamonix"> Chamonix </option>
+                        </select>
+                        <select class="" style="width:150px" id="participant" name="participant">
+                            <option value="Participants"> Participants </option>
+                            <option value="1"> 1 </option>
+                            <option value="2"> 2 </option>
+                            <option value="3"> 3 </option>
+                            <option value="4"> 4 </option>
+                            <option value="5"> Plus de 4 </option>
+                        </select>
+                        <select class="" style="width:150px" id="offer" name="offer">
+                            <option value="Offre"> Offre </option>
+                            <option value="1"> 1 </option>
+                            <option value="2"> 2 </option>
+                            <option value="3"> 3 </option>
+                            <option value="4"> 4 </option>
+                        </select>
+                        <input id="send" type="submit" value="VALIDEZ !" class="submit-button">
+                    </form>
+                </div>
+            </div>
+            <div class="trip">
+                <div class="trip_text">
+                    <h2>LE TRIP</h2>
+                    <p>Marre de stagner toute la semaine sur les mêmes descentes, de se taper les mêmes remontées toute la semaine ?</p>
+                    <p><b>ALPINE TOUR</b> vous propose une solution alternative, <b>15 jours de glisse dans 4 stations différentes</b>, accompagné par un guide local qui saura vous montrez les bonnes lignes et les spots secrets.</p>
+
+                    <p>Et pour les plus courageux <b>une descente 100% freeride en Héliski</b> sur une des meilleurs façade d’Europe : Verbier </p>
+
+                    <p>>> <a href="#">Plus de détails</a></p>
+                </div>
+                <div class="trip_img">
+                    <img src="img/trip.jpg" alt="trip">
+                </div>
+            </div>
+            <div class="station">
+                <h2>LES STATIONS</h2>
+                <div class="station_img">
+                    <div class="img">
+                        <a href="#"><img src="img/stations_tignes.jpg" alt="Tignes"></a>
+                    </div>
+                    <div class="img">
+                        <a href="#"><img src="img/stations_plage.jpg" alt="La Plagne"></a>
+                    </div>
+                    <div class="img">
+                        <a href="#"><img src="img/stations_chamonix.jpg" alt="Chamonix"></a>
+                    </div>
+                    <div class="img">
+                        <a href="#"><img src="img/stations_verbier.jpg" alt="Verbier"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="plannig">
+                <h2>EXEMPLE DE PLANNING TYPE</h2>
+                <div class="planning_img">
+                    <div class="img">
+                        <a href="#"><img src="img/plan_station_left.jpg" alt=""></a>
+                    </div>
+                    <div class="img">
+                        <a href="#"><img src="img/plan_station.jpg" alt="Google map"></a>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="form">
-
-        </div>
-        <div class="trip">
-            
-        </div>
-        <div class="station">
-            
-        </div>
-        <div class="plannig">
-            
-        </div>
-    </div>
-</body>
+    </body>
 </html>
