@@ -1,11 +1,76 @@
+@font-face {
+    font-family: 'chalkdusterregular';
+    src: url("../fonts/chalkduster-webfont.eot");
+    src: url('../fonts/chalkduster-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/chalkduster-webfont.woff') format('woff'),
+    url('../fonts/chalkduster-webfont.ttf') format('truetype'),
+    url('../fonts/chalkduster-webfont.svg#chalkdusterregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'cabinbold';
+    src: url('../fonts/cabin-bold-webfont.eot');
+    src: url('../fonts/cabin-bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/cabin-bold-webfont.woff') format('woff'),
+    url('../fonts/cabin-bold-webfont.ttf') format('truetype'),
+    url('../fonts/cabin-bold-webfont.svg#cabinbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'cabinmedium';
+    src: url('../fonts/cabin-medium-webfont.eot');
+    src: url('../fonts/cabin-medium-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/cabin-medium-webfont.woff') format('woff'),
+    url('../fonts/cabin-medium-webfont.ttf') format('truetype'),
+    url('../fonts/cabin-medium-webfont.svg#cabinmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'cabinregular';
+    src: url('../fonts/cabin-regular-webfont.eot');
+    src: url('../fonts/cabin-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/cabin-regular-webfont.woff') format('woff'),
+    url('../fonts/cabin-regular-webfont.ttf') format('truetype'),
+    url('../fonts/cabin-regular-webfont.svg#cabinregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'cabinsemibold';
+    src: url('../fonts/cabin-semibold-webfont.eot');
+    src: url('../fonts/cabin-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/cabin-semibold-webfont.woff') format('woff'),
+    url('../fonts/cabin-semibold-webfont.ttf') format('truetype'),
+    url('../fonts/cabin-semibold-webfont.svg#cabinsemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 *{
     margin: 0;
     padding: 0;
 }
 
+html{
+    font-family: sans-serif;
+    font-size: 1em;
+}
+
 body{
     background-color: rgb(239,239,239);
-    font-size: 100%;
+    position: relative;
 }
 
 .container{
@@ -20,11 +85,11 @@ body{
 
 .menu_list{
     margin-left: 230px;
+    font-family: 'cabinregular',sans-serif;
 }
 
 .menu_list ul{
     list-style-type: none;
-    margin-top: 35px;
 }
 
 .menu_list li{
@@ -33,7 +98,7 @@ body{
     height: 20px;
     color: white;
     text-align: center;
-    font-size: 0.4375em;
+    font-size: 0.50em;
     margin-top: 20px;
     padding-top: 13px;
     border-left:solid 1px gray ;
@@ -53,9 +118,76 @@ body{
     float: left;
 }
 
-.form{
+.header{
     height: 415px;
     background-image: url(../img/header_background1.png);
+}
+
+.form{
+    width: 190px;
+    height: 260px;
+    float: right;
+    margin-top: 75px;
+    margin-right: 40px;
+
+    /*Gradient*/
+    background-image:linear-gradient(top bottom,rgb(88,155,214), rgb(5,63,114));
+    /* IE10 Consumer Preview */
+    background-image: -ms-linear-gradient(top, rgb(88,155,214) 0%, rgb(5,63,114) 100%);
+
+    /* Mozilla Firefox */
+    background-image: -moz-linear-gradient(top, rgb(88,155,214) 0%, rgb(5,63,114) 100%);
+
+    /* Opera */
+    background-image: -o-linear-gradient(top, rgb(88,155,214) 0%, rgb(5,63,114) 100%);
+
+    /* Webkit (Safari/Chrome 10) */
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgb(88,155,214)), color-stop(1, rgb(5,63,114)));
+
+    /* Webkit (Chrome 11+) */
+    background-image: -webkit-linear-gradient(top, rgb(88,155,214) 0%, rgb(5,63,114) 100%);
+
+    /* W3C Markup, IE10 Release Preview */
+    background-image: linear-gradient(to bottom, rgb(88,155,214) 0%, rgb(5,63,114) 100%);
+
+    /* Shadow-box */
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+}
+
+.form{
+    font-family: 'cabinmedium',sans-serif;
+}
+
+.form h3{
+    font-size: 0.5625em;
+    text-align: center;
+    color: white;
+    font-family: 'cabinbold',sans-serif;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.form select{
+    margin-bottom: 15px;
+    margin-left: 15px;
+    width: 155px;
+}
+
+.form input{
+    width: 155px;
+    background-color: rgb(96,163,222);
+    color: #ffffff;
+    border: none;
+
+    -webkit-box-shadow:  1px 1px 2px 0px rgba(0, 0, 0, 1);
+    box-shadow:  1px 1px 2px 0px rgba(0, 0, 0, 1);
+}
+
+.form .submit-button{
+    width: 155px;
+    height: 20px;
+    margin-left: 15px;
 }
 
 .trip{
