@@ -5,6 +5,7 @@
 
 body{
     background-color: rgb(239,239,239);
+    font-size: 100%;
 }
 
 .container{
@@ -17,9 +18,39 @@ body{
     background-color: black;
 }
 
+.menu_list{
+    margin-left: 230px;
+}
+
+.menu_list ul{
+    list-style-type: none;
+    margin-top: 35px;
+}
+
+.menu_list li{
+    float: left;
+    width: 125px;
+    height: 20px;
+    color: white;
+    text-align: center;
+    font-size: 0.4375em;
+    margin-top: 20px;
+    padding-top: 13px;
+    border-left:solid 1px gray ;
+}
+
+.last{
+    border-right:1px solid gray;
+}
+
+.menu_active{
+    border-bottom: 5px solid white;
+}
+
 .menu_img{
     margin-left: 45px;
     padding-top: 15px;
+    float: left;
 }
 
 .form{
