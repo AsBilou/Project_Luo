@@ -8,7 +8,9 @@
 
         <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
 
-        <script type="text/javascript" src="js/script.js"></script>
+        <script type="text/javascript" src="js/jquery-1.9.0.js"></script>
+
+        <link rel="shortcut icon" href="img/favicon.ico">
 
         <!--[if IE 7]><![endif]-->
     </head>
@@ -21,22 +23,22 @@
                 <div class="menu_list">
                     <ul>
                         <li>
-                            ACCUEIL
+                           <a href="index.html">ACCUEIL</a>
                         </li>
                         <li>
-                            LES STATIONS
+                            <a href="station.html">LES STATIONS</a>
                         </li>
                         <li>
-                            LES OFFRES
+                            <a href="#">LES OFFRES</a>
                         </li>
                         <li>
-                            TÉMOIGNAGES
+                            <a href="#">TÉMOIGNAGES</a>
                         </li>
                         <li>
-                            PHOTOS
+                            <a href="#">PHOTOS</a>
                         </li>
                         <li class="last menu_active">
-                            NOUS CONTACTER
+                            <a href="#">NOUS CONTACTER</a>
                         </li>
                     </ul>
                 </div>
@@ -45,34 +47,42 @@
                 <div class="form">
                     <form action="#" method="post" class="">
                         <h3>CHOISISSEZ VOTRE SEJOUR</h3>
-                        <select class="" style="width:150px" id="week" name="week">
-                            <option value="Selectionner une semaine"> Selectionner une semaine </option>
-                            <option value="04/02/2013 -&gt; 10/02/2013 "> 04/02/2013 -&gt; 10/02/2013 </option>
-                            <option value="04/02/2013 -&gt; 10/02/2013"> 04/02/2013 -&gt; 10/02/2013 </option>
-                            <option value="04/02/2013 -&gt; 10/02/2013"> 04/02/2013 -&gt; 10/02/2013 </option>
-                            <option value="04/02/2013 -&gt; 10/02/2013"> 04/02/2013 -&gt; 10/02/2013 </option>
-                        </select>
-                        <select class="" style="width:150px" id="start" name="start">
-                            <option value="Au depart de "> Au depart de </option>
-                            <option value="Tignes"> Tignes </option>
-                            <option value="La Plagne"> La Plagne </option>
-                            <option value="Chamonix"> Chamonix </option>
-                        </select>
-                        <select class="" style="width:150px" id="participant" name="participant">
-                            <option value="Participants"> Participants </option>
-                            <option value="1"> 1 </option>
-                            <option value="2"> 2 </option>
-                            <option value="3"> 3 </option>
-                            <option value="4"> 4 </option>
-                            <option value="5"> Plus de 4 </option>
-                        </select>
-                        <select class="" style="width:150px" id="offer" name="offer">
-                            <option value="Offre"> Offre </option>
-                            <option value="1"> Pack eco </option>
-                            <option value="2"> Park normal </option>
-                            <option value="3"> Pack chalet </option>
-                        </select>
-                        <input id="send" type="submit" value="VALIDEZ !" class="submit-button">
+                        <div class="new_select">
+                            <select style="width:150px" id="week" name="week">
+                                <option value="Selectionner une semaine"> Selectionner une semaine </option>
+                                <option value="04/02/2013 -&gt; 10/02/2013 "> 04/02/2013 -&gt; 10/02/2013 </option>
+                                <option value="04/02/2013 -&gt; 10/02/2013"> 04/02/2013 -&gt; 10/02/2013 </option>
+                                <option value="04/02/2013 -&gt; 10/02/2013"> 04/02/2013 -&gt; 10/02/2013 </option>
+                                <option value="04/02/2013 -&gt; 10/02/2013"> 04/02/2013 -&gt; 10/02/2013 </option>
+                            </select>
+                        </div>
+                        <div class="new_select">
+                            <select class="" style="width:150px" id="start" name="start">
+                                <option value="Au depart de "> Au depart de </option>
+                                <option value="Tignes"> Tignes </option>
+                                <option value="La Plagne"> La Plagne </option>
+                                <option value="Chamonix"> Chamonix </option>
+                            </select>
+                        </div>
+                        <div class="new_select">
+                            <select class="" style="width:150px" id="participant" name="participant">
+                                <option value="Participants"> Participants </option>
+                                <option value="1"> 1 </option>
+                                <option value="2"> 2 </option>
+                                <option value="3"> 3 </option>
+                                <option value="4"> 4 </option>
+                                <option value="5"> Plus de 4 </option>
+                            </select>
+                        </div>
+                        <div class="new_select">
+                            <select class="" style="width:150px" id="offer" name="offer">
+                                <option value="Offre"> Offre </option>
+                                <option value="1"> Pack eco </option>
+                                <option value="2"> Park normal </option>
+                                <option value="3"> Pack chalet </option>
+                            </select>
+                        </div>
+                        <input id="send" type="submit" value="" class="submit-button">
                     </form>
                 </div>
             </div>

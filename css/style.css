@@ -111,10 +111,18 @@ a:active{
     height: 20px;
     color: white;
     text-align: center;
-    font-size: 0.50em;
+    font-size: 0.625em;
     margin-top: 20px;
     padding-top: 13px;
     border-left:solid 1px gray ;
+}
+
+.menu_list li a{
+    color: white;
+}
+
+.menu_list li a:hover{
+    text-decoration: none;
 }
 
 .last{
@@ -184,23 +192,17 @@ a:active{
 .form select{
     margin-bottom: 15px;
     margin-left: 15px;
-    width: 155px;
 }
 
 .form input{
-    width: 155px;
-    background-color: rgb(96,163,222);
+    width: 74px;
+    height: 75px;
     color: #ffffff;
+    background-color: transparent;
     border: none;
-
-    -webkit-box-shadow:  1px 1px 2px 0px rgba(0, 0, 0, 1);
-    box-shadow:  1px 1px 2px 0px rgba(0, 0, 0, 1);
-}
-
-.form .submit-button{
-    width: 155px;
-    height: 20px;
-    margin-left: 15px;
+    background-image: url("../img/button_go.png");
+    margin-left: 55px;
+    cursor: pointer;
 }
 
 .trip{
@@ -401,6 +403,7 @@ a:active{
     color: #ffffff;
     padding-top: 95px;
     margin-left: 35px;
+    font-size: 1.66em;
 
     text-shadow: 4px 4px 4px #292929;
     filter: dropshadow(color=#292929, offx=4, offy=4);
@@ -410,6 +413,7 @@ a:active{
     color: #ffffff;
     font-family: 'cabinsemibold';
     margin-left: 35px;
+    font-size: 1.3125em;
 
     text-shadow: 4px 4px 4px #292929;
     filter: dropshadow(color=#292929, offx=4, offy=4);
@@ -421,7 +425,7 @@ a:active{
     float: right;
     margin-top: 75px;
     margin-right: 40px;
-    font-size: 0.7em;
+    font-size: 0.6875em;
     padding-top: 20px;
     padding-left: 20px;
 
@@ -461,4 +465,85 @@ a:active{
     height: 680px;
     width: 100%;
     background-image: url("../img/background_station_detail.jpg");
+}
+
+.station_info{
+    float: left;
+    width: 550px;
+    font-family: 'cabinregular',sans-serif;
+    font-size: 0.875em;
+    margin-top: 25px;
+    margin-left: 40px;
+}
+
+.station_info p{
+    margin-bottom: 20px;
+}
+
+.station_info .more{
+    margin-top: 15px;
+    margin-left: 135px;
+}
+
+.station_detail h3{
+    font-family: 'cabinsemibold',sans-serif;
+    margin-bottom: 25px;
+}
+
+.station_image{
+    float: right;
+    margin-top: 20px;
+    font-size: 0.75em;
+    font-family: 'cabinregular',sans-serif;
+}
+
+.station_image p{
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+.station_image img{
+    margin-top: 25px;
+}
+
+.station_reservation{
+    float: left;
+    width: 100%;
+    text-align: center;
+
+}
+
+.station_reservation a{
+    height: 35px;
+    width: 290px;
+    font-size: 1.18em;
+    display: block;
+    padding-top: 15px;
+    margin-left: 365px;
+    color: rgb(5,65,117);
+
+    /* IE10 Consumer Preview */
+    background-image: -ms-linear-gradient(top, #FFFFFF 0%, #909090 100%);
+
+    /* Mozilla Firefox */
+    background-image: -moz-linear-gradient(top, #FFFFFF 0%, #909090 100%);
+
+    /* Opera */
+    background-image: -o-linear-gradient(top, #FFFFFF 0%, #909090 100%);
+
+    /* Webkit (Safari/Chrome 10) */
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFFFFF), color-stop(1, #909090));
+
+    /* Webkit (Chrome 11+) */
+    background-image: -webkit-linear-gradient(top, #FFFFFF 0%, #909090 100%);
+
+    /* W3C Markup, IE10 Release Preview */
+    background-image: linear-gradient(to bottom, #FFFFFF 0%, #909090 100%);
+
+    -webkit-border-radius: 5px;
+
+    border-radius: 5px;
+
+    text-shadow: 0px 0px 10px #FFFFFF;
+    filter: dropshadow(color=#FFFFFF, offx=0, offy=0);
 }
