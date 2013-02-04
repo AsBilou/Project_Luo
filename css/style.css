@@ -237,6 +237,7 @@ a:active{
 .station{
     height: 365px;
     background-image: url(../img/station_background.png);
+    margin-top: -15px;
 }
 
 .station .station_img{
@@ -454,4 +455,10 @@ a:active{
 
 .header_info table tbody tr{
     height: 25px;
+}
+
+.station_detail{
+    height: 680px;
+    width: 100%;
+    background-image: url("../img/background_station_detail.jpg");
 }
