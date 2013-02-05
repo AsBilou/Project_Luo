@@ -7,8 +7,10 @@
         <title>Alpine Tour - Accueil</title>
 
         <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+        <link rel="stylesheet" type="text/css" media="screen" href="css/jquery.selectbox.css">
 
-        <script type="text/javascript" src="js/jquery-1.9.0.js"></script>
+        <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+        <script type="text/javascript" src="js/jquery.selectbox-0.2.js"></script>
 
         <link rel="shortcut icon" href="img/favicon.ico">
 
@@ -48,7 +50,7 @@
                     <form action="#" method="post" class="">
                         <h3>CHOISISSEZ VOTRE SEJOUR</h3>
                         <div class="new_select">
-                            <select style="width:150px" id="week" name="week">
+                            <select class="week" id="week" name="week">
                                 <option value="Selectionner une semaine"> Selectionner une semaine </option>
                                 <option value="04/02/2013 -&gt; 10/02/2013 "> 04/02/2013 -&gt; 10/02/2013 </option>
                                 <option value="04/02/2013 -&gt; 10/02/2013"> 04/02/2013 -&gt; 10/02/2013 </option>
@@ -57,7 +59,7 @@
                             </select>
                         </div>
                         <div class="new_select">
-                            <select class="" style="width:150px" id="start" name="start">
+                            <select class="start"  id="start" name="start">
                                 <option value="Au depart de "> Au depart de </option>
                                 <option value="Tignes"> Tignes </option>
                                 <option value="La Plagne"> La Plagne </option>
@@ -65,7 +67,7 @@
                             </select>
                         </div>
                         <div class="new_select">
-                            <select class="" style="width:150px" id="participant" name="participant">
+                            <select class="participant"  id="participant" name="participant">
                                 <option value="Participants"> Participants </option>
                                 <option value="1"> 1 </option>
                                 <option value="2"> 2 </option>
@@ -75,7 +77,7 @@
                             </select>
                         </div>
                         <div class="new_select">
-                            <select class="" style="width:150px" id="offer" name="offer">
+                            <select class="offer"  id="offer" name="offer">
                                 <option value="Offre"> Offre </option>
                                 <option value="1"> Pack eco </option>
                                 <option value="2"> Park normal </option>
@@ -231,5 +233,11 @@
                 Nos offres de vacances sont assurées par Travelfactory - © 2013 alpinetour.com
             </div>
         </div>
+    <script type="text/javascript">
+            $(".week").selectbox({effect: "slide"});
+            $(".start").selectbox({effect: "slide"});
+            $(".participant").selectbox({effect: "slide"});
+            $(".offer").selectbox({effect: "slide"});
+    </script>
     </body>
 </html>

@@ -160,6 +160,8 @@ a:active{
     float: right;
     margin-top: 75px;
     margin-right: 40px;
+    font-family: 'cabinmedium',sans-serif;
+    font-size: 0.625em;
 
     /*Gradient*/
     background-image:linear-gradient(top bottom,rgb(88,155,214), rgb(5,63,114));
@@ -186,12 +188,8 @@ a:active{
     box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
 }
 
-.form{
-    font-family: 'cabinmedium',sans-serif;
-}
-
 .form h3{
-    font-size: 0.5625em;
+    font-size: 1em;
     text-align: center;
     color: white;
     font-family: 'cabinbold',sans-serif;
@@ -202,6 +200,10 @@ a:active{
 .form select{
     margin-bottom: 15px;
     margin-left: 15px;
+    width: 160px;
+    background-color: rgb(230,230,230);
+    height: 25px;
+    border: 0;
 }
 
 .form input{
@@ -229,17 +231,17 @@ a:active{
 .trip_img{
     float: right;
     margin-top: 37px;
+    margin-right: 40px;
 }
 
 .trip h2{
     font-family: 'chalkdusterregular';
-    font-size: 1.125em;
+    font-size: 1.375em;
 }
 
 .trip p{
     margin-bottom: 25px;
     font-family: 'cabinmedium';
-    font-size: 0.75em;
 }
 
 .trip b{
@@ -269,7 +271,7 @@ a:active{
 .station h2{
     font-family: 'chalkdusterregular';
     width: 80%;
-    font-size: 1.125em;
+    font-size: 1.375em;
     color: #ffffff;
     margin-left: 40px;
     margin-top: 60px;
@@ -277,13 +279,13 @@ a:active{
 }
 
 .station .more{
-    padding-left: 425px;
+    padding-left: 390px;
 }
 
 .station .more a{
     color:  #ffffff;
     text-decoration: none;
-    font-size: 0.5em;
+    font-size: 0.75em;
     float: left;
     margin-top: 25px;
 }
@@ -295,7 +297,7 @@ a:active{
 .plannig h2{
     font-family: 'chalkdusterregular';
     width: 80%;
-    font-size: 1.125em;
+    font-size: 1.375em;
     margin-left: 40px;
     margin-top: 30px;
     float: left;
@@ -316,13 +318,13 @@ a:active{
 }
 
 .plannig .more{
-    padding-left: 440px;
+    padding-left: 400px;
 }
 
 .plannig .more a{
     color:  #000000;
     text-decoration: none;
-    font-size: 0.5em;
+    font-size: 0.75em;
     margin-top: 25px;
     float: left;
 }
@@ -335,7 +337,7 @@ a:active{
 .offers h2{
     font-family: 'chalkdusterregular';
     width: 80%;
-    font-size: 1.125em;
+    font-size: 1.375em;
     margin-left: 40px;
     margin-top: 50px;
     float: left;
@@ -353,13 +355,13 @@ a:active{
 }
 
 .offers .more{
-    padding-left: 415px;
+    padding-left: 385px;
 }
 
 .offers .more a{
     color:  #ffffff;
     text-decoration: none;
-    font-size: 0.5em;
+    font-size: 0.75em;
     margin-top: 25px;
     float: left;
 }
