@@ -70,6 +70,9 @@ html{
 
 body{
     background-color: rgb(239,239,239);
+    /*Repeat une image en x et y pour le fond d'écran
+    background-image: url("../img/monImage.jpg");
+    background-repeat: repeat ou repeat-x ou repeat-y;*/
 }
 
 a{
@@ -108,27 +111,31 @@ a:active{
 .menu_list li{
     float: left;
     width: 125px;
-    height: 20px;
+    height: 46px;
     color: white;
     text-align: center;
     font-size: 0.625em;
     margin-top: 20px;
-    padding-top: 13px;
-    border-left:solid 1px gray ;
+
     border-bottom: 0px solid white;
 
-    transition: border 0.5s;
-    -moz-transition: border 0.5s; /* Firefox 4 */
-    -webkit-transition: border 0.5s; /* Safari and Chrome */
-    -o-transition: border 0.5s; /* Opera */
+    transition: border 0.4s;
+    -moz-transition: border 0.4s; /* Firefox 4 */
+    -webkit-transition: border 0.4s; /* Safari and Chrome */
+    -o-transition: border 0.4s; /* Opera */
 }
 
 .menu_list li:hover{
-    border-bottom: 5px solid white;
+    border-bottom: 7px solid white;
 }
 
 .menu_list li a{
     color: white;
+    width: 125px;
+    height: 27px;
+    padding-top: 13px;
+    display: block;
+    border-left:solid 1px rgb(48,48,50) ;
 }
 
 .menu_list li a:hover{
@@ -136,11 +143,11 @@ a:active{
 }
 
 .last{
-    border-right:1px solid gray;
+    border-right:1px solid rgb(48,48,50);
 }
 
 .menu_active{
-    border-bottom: 5px solid white !important;
+    border-bottom: 7px solid white !important;
 }
 
 .menu_img{
@@ -402,6 +409,10 @@ a:active{
     background-color: #000000;
 }
 
+.footer a{
+    color: rgb(119,119,119);
+}
+
 .header_station{
     background-image: url("../img/Products_Header.jpg");
     width: 100%;
@@ -518,6 +529,7 @@ a:active{
 
 .station_image img{
     margin-top: 25px;
+    margin-right: 40px;
 }
 
 .station_reservation{
