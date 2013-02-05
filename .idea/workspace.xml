@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f0c6677-83b8-4688-b967-be39628c932b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/station.html" afterPath="$PROJECT_DIR$/station.html" />
-    </list>
+    <list default="true" id="8f0c6677-83b8-4688-b967-be39628c932b" name="Default" comment="" />
     <ignored path="Project_Luo.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -56,7 +51,7 @@
       <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="122" column="29" selection-start="3157" selection-end="3158" vertical-scroll-proportion="0.52">
+            <state line="107" column="14" selection-start="2753" selection-end="2753" vertical-scroll-proportion="0.22">
               <folding>
                 <element signature="e#11#441#0" expanded="false" />
                 <element signature="e#454#861#0" expanded="false" />
@@ -366,7 +361,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="122" column="29" selection-start="3157" selection-end="3158" vertical-scroll-proportion="0.52">
+        <state line="107" column="14" selection-start="2753" selection-end="2753" vertical-scroll-proportion="0.22">
           <folding>
             <element signature="e#11#441#0" expanded="false" />
             <element signature="e#454#861#0" expanded="false" />
