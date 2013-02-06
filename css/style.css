@@ -163,40 +163,14 @@ a:active{
 }
 
 .form{
-    width: 190px;
-    height: 260px;
+    width: 188px;
+    height: 284px;
     float: right;
     margin-top: 75px;
     margin-right: 40px;
     font-family: 'cabinmedium',sans-serif;
     font-size: 0.625em;
-    background-color: rgb(88,155,214);
-
-
-    /*Gradient*/
-    background-image:linear-gradient(top bottom,rgb(88,155,214), rgb(5,63,114));
-
-    /* IE10 Consumer Preview */
-    background-image: -ms-linear-gradient(top, rgb(88,155,214) 0%, rgb(5,63,114) 100%);
-
-    /* Mozilla Firefox */
-    background-image: -moz-linear-gradient(top, rgb(88,155,214) 0%, rgb(5,63,114) 100%);
-
-    /* Opera */
-    background-image: -o-linear-gradient(top, rgb(88,155,214) 0%, rgb(5,63,114) 100%);
-
-    /* Webkit (Safari/Chrome 10) */
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgb(88,155,214)), color-stop(1, rgb(5,63,114)));
-
-    /* Webkit (Chrome 11+) */
-    background-image: -webkit-linear-gradient(top, rgb(88,155,214) 0%, rgb(5,63,114) 100%);
-
-    /* W3C Markup, IE10 Release Preview */
-    background-image: linear-gradient(to bottom, rgb(88,155,214) 0%, rgb(5,63,114) 100%);
-
-    /* Shadow-box */
-    -webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
-    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+    background-image: url("../img/menu_choisir.png");
 }
 
 .form h3{
@@ -204,16 +178,16 @@ a:active{
     text-align: center;
     color: white;
     font-family: 'cabinbold',sans-serif;
-    margin-top: 25px;
-    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 .form select{
-    margin-bottom: 15px;
+    margin-top: 10px;
     margin-left: 15px;
     width: 160px;
     background-color: rgb(230,230,230);
-    height: 25px;
+    height: 20px;
     border: 0;
 }
 
@@ -224,7 +198,8 @@ a:active{
     background-color: transparent;
     border: none;
     background-image: url("../img/button_go.png");
-    margin-left: 60px;
+    margin-left: 59px;
+    margin-top: 5px;
     cursor: pointer;
 }
 
@@ -264,7 +239,6 @@ a:active{
     height: 365px;
     background-color: rgb(239,239,239);
     background-image: url(../img/station_background.png);
-    margin-top: -15px;
 }
 
 .station .station_img{
@@ -274,11 +248,9 @@ a:active{
 .station_img .img{
     float: left;
     margin-left: 25px;
-    margin-top: 20px;
+    margin-top: 15px;
     height: 167px;
     width: 214px;
-    -webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
-    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
 }
 
 .station h2{
@@ -287,7 +259,7 @@ a:active{
     font-size: 1.375em;
     color: #ffffff;
     margin-left: 40px;
-    margin-top: 60px;
+    margin-top: 50px;
     float: left;
 }
 
@@ -300,7 +272,39 @@ a:active{
     text-decoration: none;
     font-size: 0.75em;
     float: left;
-    margin-top: 25px;
+    margin-top: 35px;
+}
+
+.station_2{
+    height: 353px;
+    background-color: rgb(239,239,239);
+    background-image: url(../img/station_background_station.png);
+}
+
+.station_2 .station_img{
+    margin-left: 15px;
+}
+
+.station_2 h2{
+    font-family: 'chalkdusterregular';
+    width: 80%;
+    font-size: 1.375em;
+    color: #ffffff;
+    margin-left: 40px;
+    margin-top: 50px;
+    float: left;
+}
+
+.station_2 .more{
+    padding-left: 390px;
+}
+
+.station_2 .more a{
+    color:  #ffffff;
+    text-decoration: none;
+    font-size: 0.75em;
+    float: left;
+    margin-top: 35px;
 }
 
 .plannig{
@@ -354,7 +358,7 @@ a:active{
     width: 80%;
     font-size: 1.375em;
     margin-left: 40px;
-    margin-top: 50px;
+    margin-top: 45px;
     float: left;
     color: #ffffff;
 }
@@ -365,8 +369,8 @@ a:active{
 
 .offers .img{
     float: left;
-    margin-left: 20px;
-    margin-top: 30px;
+    margin-left: 0px;
+    margin-top: 0px;
 }
 
 .offers .more{

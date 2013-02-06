@@ -9,7 +9,7 @@
 	position: relative;
 	width: 160px;
     margin-left: 15px;
-    margin-bottom: 15px;
+    margin-top: 15px;
     -webkit-border-radius: 7px;
     border-radius: 7px;
 
@@ -36,7 +36,7 @@
 }
 .sbSelector{
 	display: block;
-	height: 30px;
+	height: 25px;
 	left: 0;
 	line-height: 30px;
 	outline: none;
@@ -44,7 +44,7 @@
 	position: absolute;
 	text-indent: 10px;
 	top: 0;
-	width: 170px;
+	width: 160px;
 }
 .sbSelector:link, .sbSelector:visited, .sbSelector:hover{
 	color: #000000;
